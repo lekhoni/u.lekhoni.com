@@ -306,8 +306,8 @@
       var done = false;
       function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 6000);
-          done = true;
+          // setTimeout(stopVideo, 6000);
+          // done = true;
         }
       }
 
@@ -318,8 +318,8 @@
         destroyPlayer();
 
         player = new YT.Player("player", {
-          height: "390",
-          width: "640",
+          height: "600",
+          width: "800",
           videoId: videoId,
           playerVars: {
             playsinline: 1,
