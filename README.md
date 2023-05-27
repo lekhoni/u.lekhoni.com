@@ -9,3 +9,5 @@ LekhoniU - learning the basics
 [Python 101](https://u.lekhoni.com/python101/index.html)
 
 [Web Application 101](https://u.lekhoni.com/webapp101/index.html)
+
+[PyTorch 101](https://u.lekhoni.com/pytorch101/)
