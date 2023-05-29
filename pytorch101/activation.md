@@ -15,6 +15,8 @@ Here are some of the common activation functions:
 
 ### ReLU (Rectified Linear Unit): 
 
+![ReLU Function](images/relu.png "ReLU")
+
 This is the most commonly used activation function. It returns the input for all positive values of input, and returns 0 for all negative values of input.
 
 ```python
@@ -28,6 +30,8 @@ print(output)  # Returns tensor([0., 1., 0.])
 
 This activation function squashes the input to a range between 0 and 1. It is often used in the output layer of a binary classification problem.
 
+![Sigmoid Function](images/sigmoid.png "Sigmoid")
+
 ```python
 sigmoid = nn.Sigmoid()
 x = torch.tensor([-1.0, 1.0, 0.0])
@@ -36,6 +40,8 @@ print(output)  # Returns tensor([0.2689, 0.7311, 0.5000])
 ```
 
 ### Tanh (Hyperbolic Tangent): 
+
+![Tanh Function](images/tanh.png "Tanh")
 
 This activation function squashes the input to a range between -1 and 1.
 
