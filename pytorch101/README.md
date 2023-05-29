@@ -26,7 +26,7 @@ Each of these concepts builds upon the previous ones, offering a progressive lea
 - [Tensor Basics](pytorch-1.md)
 - [Some common PyTorch methods](pytorch-2.md)
 - [Linear Layer](linearlayer.md)
-- [Automatic differentiation with Autograd](linearlayer.md)
+- [Automatic differentiation with Autograd](autograd.md)
 - [A Simple Neural Network](pytorch-3.md)
 - [Understanding and Using Activation Functions](activation.md)
 - [Simplifying Networks with nn.Sequential](seqmodel.md)
