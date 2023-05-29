@@ -33,7 +33,8 @@ from torchview import draw_graph
 model_graph = draw_graph(net, input_size=(10,), expand_nested=True)
 model_graph.visual_graph
 ```
-Note than we are supplying `input_size` which is `10` for our current network. We should have a network visual graph like below:
+
+Note than we are supplying `input_size` which is `10` for our current network. If we run the above code in a jupyter notebook we should have a network visual graph like below:
 
 ![Network graph](images/visual_graph.png "Network graph")
 
