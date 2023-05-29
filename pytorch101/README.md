@@ -32,4 +32,5 @@ Each of these concepts builds upon the previous ones, offering a progressive lea
 - [Simplifying Networks with nn.Sequential](seqmodel.md)
 - [Data Loading and Processing](pytorch-4.md)
 - [Using a Pretrained Network (Transfer Learning)](pytorch-5.md)
+- [Visualizing a neural network](visualizenet.md)
 
