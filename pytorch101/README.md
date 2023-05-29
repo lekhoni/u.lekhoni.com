@@ -18,6 +18,7 @@ Here is a list of key concepts and skills we will learn from the PyTorch tutoria
 * Recognizing how to use different datasets and how to apply transformations on them using torchvision.transforms.
 * Understanding how to evaluate a model by making predictions on test data.
 * Simplifying complex neural networks using nn.Sequential in PyTorch.
+* Visualizing a neural network
 
 Each of these concepts builds upon the previous ones, offering a progressive learning curve that covers the essential concepts and skills needed to build, train, and evaluate models with PyTorch.
 
