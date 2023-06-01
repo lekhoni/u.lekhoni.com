@@ -19,6 +19,7 @@ Here is a list of key concepts and skills we will learn from the PyTorch tutoria
 * Understanding how to evaluate a model by making predictions on test data.
 * Simplifying complex neural networks using nn.Sequential in PyTorch.
 * Visualizing a neural network
+* Visualizing PyTorch model, data and training with TensorBoard
 
 Each of these concepts builds upon the previous ones, offering a progressive learning curve that covers the essential concepts and skills needed to build, train, and evaluate models with PyTorch.
 
@@ -34,4 +35,5 @@ Each of these concepts builds upon the previous ones, offering a progressive lea
 - [Data Loading and Processing](pytorch-4.md)
 - [Using a Pretrained Network (Transfer Learning)](pytorch-5.md)
 - [Visualizing a neural network](visualizenet.md)
+- [Visualizing with tensorboard](tensorboard.md)
 
