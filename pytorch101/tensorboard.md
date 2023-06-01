@@ -61,7 +61,11 @@ To start TensorBoard and see the visualizations, we can run the following comman
 tensorboard --logdir=runs
 ```
 
-Then, open your web browser and go to `localhost:6006`. You should see the TensorBoard interface, where you can navigate to the "Graphs" tab to see the architecture of your model.
+Then, open your web browser and go to `localhost:6006`. You should see the TensorBoard interface, where you can navigate to the "Graphs" tab to see the architecture of your model line below:
+
+![TensorBoard Model Graph](images/tb_net.png "Model")
+
+
 
 ## Logging Training Metrics
 Let's assume we have a simple training loop and we want to log the training loss. Here's an example:
@@ -93,5 +97,7 @@ print('Finished Training')
 writer.close()
 ```
 
-In this example, we log the training loss at each epoch during training. After running this code, you can refresh TensorBoard, and you should see a "Scalars" tab where the training loss is plotted against the epoch number.
+In this example, we log the training loss at each epoch during training. After running this code, you can refresh TensorBoard, and you should see a "Scalars" tab where the training loss is plotted against the epoch number:
+![TensorBoard Scalars](images/scalars.png "Loss/train")
+
 There's much more you can do with TensorBoard, such as visualizing image data, creating embeddings, and more. Check out the TensorBoard documentation for more details
