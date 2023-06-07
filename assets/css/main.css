@@ -38,3 +38,11 @@ body {
     margin-top: 10px;
     text-align: left;
 }
+
+a {
+    color: #66FCF1; /* light cyan */
+}
+
+a:hover {
+    color: #45A29E; /* darker cyan */
+}
