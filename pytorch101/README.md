@@ -23,17 +23,4 @@ Here is a list of key concepts and skills we will learn from the PyTorch tutoria
 
 Each of these concepts builds upon the previous ones, offering a progressive learning curve that covers the essential concepts and skills needed to build, train, and evaluate models with PyTorch.
 
-## Table of contents
-
-- [Tensor Basics](pytorch-1.md)
-- [Some common PyTorch methods](pytorch-2.md)
-- [Linear Layer](linearlayer.md)
-- [Automatic differentiation with Autograd](autograd.md)
-- [A Simple Neural Network](pytorch-3.md)
-- [Understanding and Using Activation Functions](activation.md)
-- [Simplifying Networks with nn.Sequential](seqmodel.md)
-- [Data Loading and Processing](pytorch-4.md)
-- [Using a Pretrained Network (Transfer Learning)](pytorch-5.md)
-- [Visualizing a neural network](visualizenet.md)
-- [Visualizing with tensorboard](tensorboard.md)
-
+[Introduction to PyTorch on Amazon](https://www.amazon.com/dp/B0CQP8B73M)
